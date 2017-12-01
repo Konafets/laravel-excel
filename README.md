@@ -129,11 +129,6 @@ $collection = $excel->getCollection();
 //dd($collection)
 ```
 
-The importer class is fluent, then you can also write
-```
-return Importer::make('Excel')->getCollection($filepath)->getCollection();
-```
-
 ### Advanced usage
 By default, every row of the first sheet of the excel file becomes an array and the final result is wraped in a Collection (Illuminate\Support\Collection).  
 
